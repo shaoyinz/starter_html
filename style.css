@@ -1,0 +1,38 @@
+body{
+    background-color: #8babf1;
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2,h3{
+    font-size: 36px;
+    font-family:'Times New Roman', Times, serif;
+    color:brown;
+}
+
+p{
+    line-height: 120%;
+}
+
+img{
+    border: 5px solid #c44601;
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+    border-top-right-radius: 30px;
+}
+
+ul{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
